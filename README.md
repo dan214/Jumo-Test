@@ -44,6 +44,17 @@ To get you local environment running, install the prerequisites from the require
 ```
 pip install -r requirements.txt
 ```
+
+## Performance and Scaling
+
+Since we are dealing with small amounts of data currently, preformance should not be a problem. However, if the Loans.csv is a big file (100MB to severals GBs), we are likely to run into performance issues where run times are much longer, and/or cause code to fail entirely to insufficicent memory.
+
+A few things to consider in this scenario:
+
+1. ####Use other tools suited to handle large amounts of data - While tools like Spark can handle large data sets (100 gigabytes to multiple terabytes), taking full advantage of their capabilities usually requires more expensive hardware. And unlike pandas, they lack rich feature sets for high quality data cleaning, exploration, and analysis. For medium-sized data, we're better off trying to get more out of pandas, rather than switching to a different tool. 
+
+2. #### Processing chunks of the data - This involved loading chunks of it into RAM, and processing each chunk before loading the nex
+
 ## Assumptions
 
 There are several assumptions that I've made in the course of building this project.
