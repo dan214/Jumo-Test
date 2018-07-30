@@ -11,6 +11,7 @@ Table of Contents
   * [Prerequisites](#prerequisites)
   * [Languages](#languages)
   * [Installation](#installation)
+  * [Performance and Scaling](#performance-and-scaling)
   * [Assumptions](#assumptions)
   * [Authors](#authors)
 
@@ -51,7 +52,7 @@ Since we are dealing with small amounts of data currently, preformance should no
 
 A few things to consider in this scenario:
 
-1. ####Use other tools suited to handle large amounts of data - While tools like Spark can handle large data sets (100 gigabytes to multiple terabytes), taking full advantage of their capabilities usually requires more expensive hardware. And unlike pandas, they lack rich feature sets for high quality data cleaning, exploration, and analysis. For medium-sized data, we're better off trying to get more out of pandas, rather than switching to a different tool. 
+1. #### Use other tools suited to handle large amounts of data - While tools like Spark can handle large data sets (100 gigabytes to multiple terabytes), taking full advantage of their capabilities usually requires more expensive hardware. And unlike pandas, they lack rich feature sets for high quality data cleaning, exploration, and analysis. For medium-sized data, we're better off trying to get more out of pandas, rather than switching to a different tool. 
 
 2. #### Processing chunks of the data - This involved loading chunks of it into RAM, and processing each chunk before loading the nex
 
