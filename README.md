@@ -9,7 +9,7 @@ Table of Contents
 
   * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installing](#installing)
+  * [Installation](#installation)
   * [Assumptions](#assumptions)
   * [Authors](#authors)
 
@@ -19,13 +19,24 @@ To get this project up and running on your computer, clone or download the proje
 
 ### Prerequisites
 
-You will need to install Pandas to get up and running. There is a requirements.txt for this
+You will need to install Pandas and Python 3.6 to get up and running. There is a requirements.txt for this
 
 ```
 Pandas for data analysis
 ```
+## Languages
 
-### Installing
+### Python 3.6
+The reason for using Python is that it is simple enough for things to happen (really) quickly and powerful enough to allow the implementation of the most complex ideas. In addition, it has a lot (tons) of pre-built packages (most things are ready to use)
+
+### Pandas(Python Library)
+I've used Pandas for data analysis. It gives Python the ability to work with spreadsheet-like data for fast data loading, manipulating, aligning, and merging, among other functions
+
+### Dateutil (Python module)
+I've used this python module to parse the date string into known formats to represent date and time. In our case, month.
+
+
+### Installation
 
 To get you local environment running, install the prerequisites from the requirements.txt and then run jumo-test.py
 
