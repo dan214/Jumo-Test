@@ -17,7 +17,7 @@ Table of Contents
 
 ## Getting Started
 
-To get this project up and running on your computer, clone or download the project on your local machine and run jumo-test.py
+To get this project up and running on your computer, clone or download the project on your local machine and run jumo_test.py
 
 ## Prerequisites
 
