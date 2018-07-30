@@ -9,6 +9,7 @@ Table of Contents
 
   * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
+  * [Languages](#languages)
   * [Installation](#installation)
   * [Assumptions](#assumptions)
   * [Authors](#authors)
@@ -17,7 +18,7 @@ Table of Contents
 
 To get this project up and running on your computer, clone or download the project on your local machine and run jumo-test.py
 
-### Prerequisites
+## Prerequisites
 
 You will need to install Pandas and Python 3.6 to get up and running. There is a requirements.txt for this
 
@@ -36,7 +37,7 @@ I've used Pandas for data analysis. It gives Python the ability to work with spr
 I've used this python module to parse the date string into known formats to represent date and time. In our case, month.
 
 
-### Installation
+## Installation
 
 To get you local environment running, install the prerequisites from the requirements.txt and then run jumo-test.py
 
