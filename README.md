@@ -2,6 +2,8 @@
 
 This is an technical assignment from JUMO. This project reads an excel files and the result is a file called Output.csv with a line detailing the totals by the tuple of (Network, Product, Month) summing the amount and count of loans.
 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+
 Table of Contents
 -----------------
 
